@@ -22,10 +22,9 @@
   </build>
   <dependencies>
     <dependency>
-      <groupId>jakarta.servlet</groupId>
-      <artifactId>jakarta.servlet-api</artifactId>
-      <version>4.0.3</version>   
-
-    </dependency>
+    <groupId>jakarta.servlet</groupId>
+    <artifactId>jakarta.servlet-api</artifactId>
+    <version>4.0.3</version> (or a compatible version)
+</dependency>
   </dependencies>
 </project>
