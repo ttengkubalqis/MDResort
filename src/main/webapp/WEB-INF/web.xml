@@ -9,14 +9,4 @@
     <welcome-file>default.jsp</welcome-file>
     <welcome-file>default.htm</welcome-file>
   </welcome-file-list>
-  <servlet>
-    <description></description>
-    <display-name>dummyHomepageServlet</display-name>
-    <servlet-name>dummyHomepageServlet</servlet-name>
-    <servlet-class>com.dummyProject.dummyHomepageServlet</servlet-class>
-  </servlet>
-  <servlet-mapping>
-    <servlet-name>dummyHomepageServlet</servlet-name>
-    <url-pattern>/dummyHomepageServlet</url-pattern>
-  </servlet-mapping>
 </web-app>
