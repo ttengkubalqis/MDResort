@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MD Resort</title>
+  <link rel="stylesheet" href="style1.css"> <!-- Single CSS file -->
+</head>
+<body>
+  <!-- Header Section -->
+  <header>
+    <div class="logo">
+      <a href="MdResort_HOMEPAGE.html">
+        <img src="MdResort_logo.png" alt="MD Resort Logo">
+      </a>
+      <a href="MdResort_HOMEPAGE.html" style="color: black; text-decoration: none;">MD Resort</a>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="MdResort_HOMEPAGE.html">HOME</a></li>
+        <li class="dropdown">
+          <a href="MdResort_ROOM.html">ROOM</a>
+          <div class="dropdown-room">
+            <a href="MdResort_ROOM_FAMILY.html">FAMILY</a>
+            <a href="MdResort_ROOM_CABIN.html">CABIN</a>
+            <a href="MdResort_ROOM_WOOD.html">WOOD</a>
+          </div>
+        </li>
+        <li><a href="MdResort_FACILITIES.html">FACILITIES</a></li>
+        <li><a href="MdResort_SIGNUP.html" class="btn">Sign Up</a></li>
+        <li><a href="MdResort_LOGIN.html" class="btn">Log In</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Log In Section -->
+  <div class="signup-container">
+    <h1>Log In</h1>
+    <button class="social-btn facebook-btn">Log in with Facebook</button>
+    <button class="social-btn google-btn">Log in with Google</button>
+    <div class="divider">
+      <span></span>
+      <p>or with your email</p>
+      <span></span>
+    </div>
+    <form action="/MDResort/LoginServlet" method="post" class="signup-form">
+      <input type="email" placeholder="Email" name="email" required>
+      <input type="password" placeholder="Password" name="password" required>
+      <button type="submit" class="signup-btn">Log In</button>
+    </form>
+    <p class="privacy-text">This site is protected by reCAPTCHA Enterprise and the Google Privacy Policy and Terms of Service apply</p>
+    <p class="login-text"><a href="#">I forgot my password</a></p>
+    <p class="login-text">Already have an account? 
+      <a href="MdResort_SIGNUP.html">Sign Up</a>
+    </p>
+  </div>
+
+  <!-- Footer Section -->
+  <footer>
+    <div class="footer-container">
+      <!-- Logo -->
+      <div class="footer-logo">
+        <img src="MdResort_logo.png" alt="Logo">
+      </div>
+
+      <!-- Social Media Icons -->
+      <div class="social-icons">
+        <a href="https://www.facebook.com/mddiahresort/">
+          <img src="facebook_icon.png" alt="Facebook">
+        </a>
+        <a href="https://www.instagram.com/mddiahresort.co/">
+          <img src="instagram_icon.png" alt="Instagram">
+        </a>
+        <a href="https://api.whatsapp.com/send?phone=601114753100&text=Hi%20is%20there%20available%20room%20at%20MD%20resort%3F">
+          <img src="whatsapp_icon.png" alt="WhatsApp">
+        </a>
+      </div>
+
+      <!-- Navigation Links -->
+      <ul class="footer-links">
+        <li><a href="MdResort_HOMEPAGE.html">Home</a></li>
+        <li><a href="MdResort_ROOM.html">Room</a></li>
+        <li><a href="MdResort_FACILITIES.html">Facilities</a></li>
+      </ul>
+    </div>
+  </footer>
+</body>
+</html>
