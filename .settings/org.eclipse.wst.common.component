@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+<<<<<<< HEAD
             
     
     <wb-module deploy-name="dummyProject-0.0.1-SNAPSHOT">
@@ -19,4 +20,12 @@
     </wb-module>
         
 
+=======
+    <wb-module deploy-name="MDResort">
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <property name="context-root" value="MDResort"/>
+        <property name="java-output-path" value="/MDResort/build/classes"/>
+    </wb-module>
+>>>>>>> 5f4fa6025529700d6069ffbbc2638e45fe09b3be
 </project-modules>
